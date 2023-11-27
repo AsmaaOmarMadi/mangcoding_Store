@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Tulpen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tulpen+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+    list-style-type: none;
+}
+a{
+    text-decoration-line: none;
+}
+.active{
+    font-weight: 750;
+}
+.container{
+    width: calc(100% - 120px);
+    margin: auto;
+}
+header{
+    background-color:#FFF;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    box-shadow: 0px 1.64744px 8.2372px 0px rgba(0, 0, 0, 0.10);
+padding: 20px 0;;
+}     
+.row_one{
+    
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+
+}
+header .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+header .logo .logo_one{
+    width: 35px;
+}
+header .logo a{
+    color: #545BE8;
+}
+header nav ul{
+    display: flex;
+    gap: 17px;
+    text-transform: capitalize;
+}
+header nav ul a{
+    color: #101928;
+}
+header .auth{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+header .auth a{
+    color: #545BE8;
+    font-family: 'Inter', sans-serif;
+    text-transform: capitalize;
+    font-weight: 550;
+    padding: 5.354px 30px;
+    border-radius: 10px;
+}
+header .auth  .login{
+border: 2px solid #545BE8;
+}
+header .auth  .register{
+    color: #FFF;
+    background-color:#545BE8  ;
+    border: 2px solid #545BE8;
+
+}
